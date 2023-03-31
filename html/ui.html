@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:700&display=swap&subset=arabic" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>A7md Scoreboard</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="scoreboard-block">
+                <div class="scoreboard-header">
+                    <!-- <img src="A7MD-LOGO.png" alt="A7MD-LOGO" class="A7MD-LOGO"> -->
+                </div>
+
+                <div class="scoreboard-info">
+                    <div class="scoreboard-info-header">
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="ambulance" style="background: #00c3ff00;">
+                        <div class="info-beam-title1"><p>A7MD Scoreboard v1</p></div>
+                    </div>                    
+                    <div class="scoreboard-info-beam" data-type="ambulance" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>تواجد المسعفين</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="police" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>تواجد العساكر</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="robcitz" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>خطف مواطن</p></div>
+                        <div class="info-beam-status"></div>
+                        </div>
+                    <div class="scoreboard-info-beam" data-type="storerobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>سرقة البقالات</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="houserobbery" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>سرقة المنازل</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="fleecarobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>سرقة المصرف</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="banktruckrobbery" style="background: #202020b7;">
+                        <div class="info-beam-title"><p> سرقة شاحنة البنك</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="bobcatrobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p> سرقة البوبكات</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="jewelleryrobbery" style="background: #202020b7;">
+                        <div class="info-beam-title"><p> سرقة محل المجوهرات</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="artrobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>سرقة متحف الفنون</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="politorobbery" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>سرقة مصرف بوليتو</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+                    <div class="scoreboard-info-beam" data-type="pacificrobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>سرقة البنك المركزي</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+					<div class="scoreboard-info-beam" data-type="goldenbank" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>سرقة البنك الذهبي</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+					<div class="scoreboard-info-beam" data-type="casinorobbery" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>سرقة الكازينو</p></div>
+                        <div class="info-beam-status"></div>
+                    </div>
+					 <div class="scoreboard-info-beam" style="background: #202020b7;">
+                        <div class="info-beam-title"><p>وقت اللعب</p></div>
+                        <div class="info-beam-status" id="ogtal3b"></div>
+                     </div>
+					 <div class="scoreboard-info-beam" style="background: #050505b7;">
+                        <div class="info-beam-title"><p>عدد اللاعبين</p></div>
+                        <div class="info-beam-status" id="total-players"></div>
+                     </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
